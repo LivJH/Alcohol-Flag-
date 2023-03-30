@@ -27,7 +27,7 @@ Once we have done that, we can feed the data into an algorithm, namely a Support
 
 ## Guide to the R script: steps to the analysis and methods
 
-Prior to analysis, we create a dataset and manually review each free-text field, assigning it a label based on whether we think it is alcohol-related or not.
+Prior to analysis, we take our dataset and manually review each free-text field in it, assigning a label based on whether we think it is alcohol-related or not.
 
 We split the data into 80:20 ratio: 80% is our training data and 20% is our testing data
 
