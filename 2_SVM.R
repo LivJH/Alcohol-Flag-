@@ -2,27 +2,13 @@
 '''-------------------------------------------------------------------------
 AIM: The aim of this code is to create an SVM Model
 
-1. It will be tested on 125 crimes (20% test data) to determine its performance.
+1. 
+
+1. It will be tested on 20% of the original data to determine its performance.
 
 2. The goal is to predict the models on 50,000 crimes, and to have these
-contained in a dataset, called: Predictions.csv (which we produce at the end
-of the document).
-
-
-NOTE: 
-* We created a second SVM Model based on time of day, day of week and 
-DV (the code creation for this is under the --CODE NOT IN USE-- section). 
-
-* Based on the poor results from testing, we decided to remove it from the 
-analysis, as predicting it on 50,000 crimes was proven to be inaccurate. 
-
-* It is instead replaced with a time flag (more info in 3_ComparingFlags_SVM.R)
-
-
-FURTHER NOTE:
-Further analysis of the SVM model and the police, keyword and time flag 
-will be undertaken in 3_ComparingFlags_SVM.R - as well as creation of keyword
-and time flag. 
+contained in a dataset
+ 
 --------------------------------------------------------------------------'''
 
 
